@@ -1,0 +1,18 @@
+program proses_order_makanan_via_online
+
+BEGIN
+	
+READ "Buka aplikasi Shopee"
+READ "Pilih Shopee Food"
+READ "Pilih restoran dan menu makanan"
+
+INPUT "Jumlah makanan"
+INPUT "Alamat penerima"
+
+IF "Pilih metode pembayaran di tempat" THEN
+	"pembayaran dengan COD"
+
+ELSE
+	"pembayaran dengan Shopee Pay"
+
+END
